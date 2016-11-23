@@ -182,10 +182,10 @@ a {
 .row.bottom {
   text-align: center;
   font-size: 12px;
+  padding-top: 25em;
 }
 
 .nav {
-	padding-top: 300px;
 	display: inline-block;
 	margin-right: 40px;
 }
