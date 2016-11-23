@@ -7,6 +7,7 @@
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Futura, Arial;
 }
 
 body {
@@ -32,6 +33,7 @@ a {
   font-size: 3rem;
   line-height: 1.2;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-headline {
     font-size: 4.4rem;
@@ -170,24 +172,16 @@ a {
   }
 }
 
-h1 {
-	font-family: Futura;
-}
-
-h2 {
-	font-size: 20px;
-	font-family: Futura;
-}
-
 .character {
-	height: 180px;
-	width: 180px;
+	height: 12em;
+	width: 12em;
 	display: block;
 	margin: auto;
 }
 
 .row.bottom {
   text-align: center;
+  font-size: 12px;
 }
 
 .nav {
@@ -197,17 +191,7 @@ h2 {
 }
 
 a {
-	font-family: Futura, Arial;
 	color: #aebcb9;
 	font-weight: bold;
-	font-size: 20px;
-}
-
-.icons > a > img {
-	display: inline-block;
-  width: 80px;
-  height: auto;
-	padding-top: 30px;
-	padding-left: 30px;
-  margin: 0px auto;
+	font-size: 1.6em;
 }
