@@ -187,7 +187,9 @@ a {
 
 .nav {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 1em;
+  margin-left: 1em;
+  padding-top: .5em;
 }
 
 a {
