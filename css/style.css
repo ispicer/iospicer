@@ -11,8 +11,7 @@ html * {
 }
 
 body {
-  color: #aebcb9;
-  background-color: #0d0d0d;
+  color: #2A2F32;
   padding-top: 20px;
 }
 
@@ -193,7 +192,7 @@ a {
 }
 
 a {
-	color: #aebcb9;
+  color: #2A2F32;
 	font-weight: bold;
 	font-size: 1.6em;
 }
