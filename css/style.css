@@ -12,7 +12,7 @@ html * {
 
 body {
   color: #2A2F32;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 a {
@@ -172,11 +172,13 @@ a {
   }
 }
 
-.character {
-	height: 12em;
-	width: 12em;
-	display: block;
-	margin: auto;
+.demo {
+	height: 8em;
+}
+
+.demo > iframe {
+  display: block;
+  margin: auto;
 }
 
 .row.bottom {
@@ -189,7 +191,7 @@ a {
 	display: inline-block;
 	margin-right: 1em;
   margin-left: 1em;
-  padding-top: .5em;
+  padding-top: 1.5em;
 }
 
 a {
