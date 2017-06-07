@@ -16,7 +16,8 @@ body {
 }
 
 a {
-  text-decoration: none;
+  font-family: courier;
+  padding-top: 1em;
 }
 
 .top {
@@ -25,8 +26,12 @@ a {
 }
 
 .cd-intro {
-  padding-top: 50px;
+  padding-top: 5em;
   text-align: center;
+}
+
+.directory {
+  padding-top: 3em;
 }
 
 .cd-headline {
@@ -185,13 +190,6 @@ a {
   text-align: center;
   font-size: 12px;
   padding-top: 25em;
-}
-
-.nav {
-	display: inline-block;
-	margin-right: 1em;
-  margin-left: 1em;
-  padding-top: 1.5em;
 }
 
 a {
