@@ -18,6 +18,21 @@ body {
 a {
   font-family: courier;
   padding-top: 1em;
+  color: #2A2F32;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+img {
+  height: 40em;
+  padding-left: 2em;
+  padding-bottom: 3em;
+  width: auto;
+}
+
+.square {
+  display: block;
+  margin: auto;
 }
 
 .top {
@@ -37,6 +52,10 @@ a {
 .cd-headline {
   font-size: 3rem;
   line-height: 1.2;
+}
+
+.wrapper {
+  padding-top: 5em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -190,10 +209,4 @@ a {
   text-align: center;
   font-size: 12px;
   padding-top: 25em;
-}
-
-a {
-  color: #2A2F32;
-	font-weight: bold;
-	font-size: 1.6em;
 }
